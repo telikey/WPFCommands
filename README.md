@@ -8,7 +8,7 @@ ___
 Примеры:
 - Xaml
 ```xaml
-Command="{Binding Path=AnimePageCommands, Converter={StaticResource StringToCommandConverter}, ConverterParameter='LoadSeasons_Command'}"
+Command="{Binding Path=NamePageCommands, Converter={StaticResource StringToCommandConverter}, ConverterParameter='Name_Command'}"
 ```
 - Model class
 ```c#
