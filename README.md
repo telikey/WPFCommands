@@ -12,25 +12,25 @@ Command="{Binding Path=AnimePageCommands, Converter={StaticResource StringToComm
 ```
 - Model class
 ```c#
-        private NamePageCommands _namePageCommands = null;
-        public NamePageCommands NamePageCommands { get => _animePageCommands; }
+private NamePageCommands _namePageCommands = null;
+public NamePageCommands NamePageCommands { get => _animePageCommands; }
 
-        public ClassVM(NamePageCommands commands)
-        {
-            this._NamePageCommands = commands;
-        }
+public ClassVM(NamePageCommands commands)
+{
+     this._NamePageCommands = commands;
+}
 ```
 - Commands Class
 ```c#
 public class NameCommands: IFromObjectForCommandLogic
+{
+    [GetCommandMethod]
+    private ICommand Name_Command()
     {
-        [GetCommandMethod]
-        private ICommand Name_Command()
+        return new RelayCommand((x) =>
         {
-            return new RelayCommand((x) =>
-            {
                 
-            });
-        }
+        });
     }
+}
 ```
