@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "ClassInjector/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassInjector.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassInjector.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClassInjector/1.0.0": {
+      "type": "project",
+      "path": "../../classInjector/ClassInjector/ClassInjector.csproj",
+      "msbuildProject": "../../classInjector/ClassInjector/ClassInjector.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "ClassInjector >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kzolotarev\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\git\\Loc\\classInjector\\ClassInjector\\ClassInjector.csproj": {
+              "projectPath": "C:\\git\\Loc\\classInjector\\ClassInjector\\ClassInjector.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

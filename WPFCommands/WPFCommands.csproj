@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\classInjector\ClassInjector\ClassInjector.csproj" />
+  </ItemGroup>
+
 </Project>
