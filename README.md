@@ -34,3 +34,8 @@ public class NameCommands: IFromObjectForCommandLogic
     }
 }
 ```
+- Injector use
+```c#
+Injector.Add<NamePageCommands, NamePageCommands>(null, true);
+Injector.Add<ICommandLogic<ICommand, NamePageCommands>, CommandLogic<ICommand, NamePageCommands>>(null, true);
+```
