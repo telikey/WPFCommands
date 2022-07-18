@@ -11,11 +11,12 @@ ___
 Command="{Binding Path=AnimePageCommands, Converter={StaticResource StringToCommandConverter}, ConverterParameter='LoadSeasons_Command'}"
 ```
 - Model class
-```
+```c#
         private NamePageCommands _animePageCommands = null;
         public NamePageCommands AnimePageCommands { get => _animePageCommands; }
 
         public ClassVM(NamePageCommands commands)
         {
             this._NamePageCommands = commands;
+        }
 ```
