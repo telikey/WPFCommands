@@ -13,7 +13,7 @@ Command="{Binding Path=NamePageCommands, Converter={StaticResource StringToComma
 - Model class
 ```c#
 private NamePageCommands _namePageCommands = null;
-public NamePageCommands NamePageCommands { get => _animePageCommands; }
+public NamePageCommands NamePageCommands { get => _namePageCommands; }
 
 public ClassVM(NamePageCommands commands)
 {
