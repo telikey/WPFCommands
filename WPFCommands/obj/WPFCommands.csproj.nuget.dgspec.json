@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\Loc\\WPFCommands\\WPFCommands\\WPFCommands.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Anime Downloader\\WPFCommands\\WPFCommands\\WPFCommands.csproj": {}
   },
   "projects": {
-    "C:\\git\\Loc\\classInjector\\ClassInjector\\ClassInjector.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Anime Downloader\\classInjector\\ClassInjector\\ClassInjector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\Loc\\classInjector\\ClassInjector\\ClassInjector.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Anime Downloader\\classInjector\\ClassInjector\\ClassInjector.csproj",
         "projectName": "ClassInjector",
-        "projectPath": "C:\\git\\Loc\\classInjector\\ClassInjector\\ClassInjector.csproj",
-        "packagesPath": "C:\\Users\\kzolotarev\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\Loc\\classInjector\\ClassInjector\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Anime Downloader\\classInjector\\ClassInjector\\ClassInjector.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Anime Downloader\\classInjector\\ClassInjector\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kzolotarev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +58,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\git\\Loc\\WPFCommands\\WPFCommands\\WPFCommands.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Anime Downloader\\WPFCommands\\WPFCommands\\WPFCommands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\Loc\\WPFCommands\\WPFCommands\\WPFCommands.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Anime Downloader\\WPFCommands\\WPFCommands\\WPFCommands.csproj",
         "projectName": "WPFCommands",
-        "projectPath": "C:\\git\\Loc\\WPFCommands\\WPFCommands\\WPFCommands.csproj",
-        "packagesPath": "C:\\Users\\kzolotarev\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\Loc\\WPFCommands\\WPFCommands\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Anime Downloader\\WPFCommands\\WPFCommands\\WPFCommands.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Anime Downloader\\WPFCommands\\WPFCommands\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kzolotarev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +90,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\git\\Loc\\classInjector\\ClassInjector\\ClassInjector.csproj": {
-                "projectPath": "C:\\git\\Loc\\classInjector\\ClassInjector\\ClassInjector.csproj"
+              "C:\\Users\\Admin\\Desktop\\Anime Downloader\\classInjector\\ClassInjector\\ClassInjector.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Anime Downloader\\classInjector\\ClassInjector\\ClassInjector.csproj"
               }
             }
           }
@@ -115,7 +123,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
